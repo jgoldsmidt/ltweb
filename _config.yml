@@ -21,9 +21,9 @@
 title: La Tercera Online
 email: latercerapsi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-Centro de Asistencia Psicológica y formación profesional
+  Centro de Formación y Asistencia Psicológica
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jgoldsmidt.github.io/ltweb" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jgoldsmidt.github.io/ltweb/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jgoldsmidt
 
 # Build settings
