@@ -246,5 +246,7 @@ a {
 }
 
 .formacion {
-    background-image: url(assets/formacion_bg.jpg);
+    background-image: url(../formacion_bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
