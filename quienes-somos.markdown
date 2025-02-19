@@ -11,5 +11,5 @@ Esta estrategia organizativa posibilita prestar asistencia psicológica y psiqui
 Cada uno de estos servicios cuenta con un coordinador analista y un supervisor.
   
 #### ¿Dónde atenderse?
-Actualmente estamos atendiendo online.La oferta asistencial es ambulatoria e individual con un amplio horario de atención: lunes a viernes de 11.00 a 21.30 hs.
+Actualmente estamos atendiendo online. La oferta asistencial es ambulatoria e individual con un amplio horario de atención: lunes a viernes de 11.00 a 21.30 hs.
   
