@@ -1,7 +1,7 @@
 ---
 layout: quienes-somos
 ---
-#### ¿Quiénes somos?
+#### ¿Quiénes somos??
 La Tercera es un Centro de Asistencia Psicológica que desarrolla actividades asistenciales y docentes cuyos integrantes vienen trabajando en forma conjunta desde 1992, con el objetivo de ofrecer servicios de excelencia en salud mental para mejorar la calidad de vida de la comunidad.
   
 #### ¿Qué hacemos?
