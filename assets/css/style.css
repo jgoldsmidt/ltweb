@@ -380,11 +380,11 @@ html, body {
 
 @media (max-width: 1024px) { /* Tablets y pantallas más pequeñas */
     .carousel-item img {
-        width: 150%; /* Hace que la imagen sea más ancha */
+        width: 160%; /* Se agranda más para que no aparezca borde blanco */
         height: 100%;
         object-fit: cover;
         object-position: left; /* Comienza desde la izquierda */
-        animation: pan-animation 8s linear infinite alternate; /* Desplazamiento */
+        animation: pan-animation 8s linear infinite alternate; /* Movimiento panorámico */
     }
 }
 
@@ -393,6 +393,6 @@ html, body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%); /* Se desplaza a la derecha */
+        transform: translateX(-60%); /* Ajusta el desplazamiento para evitar espacios en blanco */
     }
 }
