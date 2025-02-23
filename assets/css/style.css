@@ -345,12 +345,12 @@ text-decoration:none;
 
 
 .navbar{
-    min-height: 10vh;
+    height: 10vh;
 }
 
 .main-content{
-    min-height: 80vh;
+    height: 80vh;
 }
 .footer1{
-    min-height: 10vh;
+    height: 10vh;
 }
