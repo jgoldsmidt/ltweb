@@ -353,4 +353,5 @@ text-decoration:none;
 }
 .footer1{
     height: 10vh;
+    z-index: 2;
 }
