@@ -365,3 +365,34 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+.carousel-item {
+    width: 100%;
+    height: 77vh; /* Mantiene la altura fija */
+    overflow: hidden; /* Evita que la imagen sobresalga */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+    object-position: center; /* Centra la imagen en pantallas grandes */
+}
+
+@media (max-width: 1024px) { /* Tablets y pantallas más pequeñas */
+    .carousel-item img {
+        width: 150%; /* Hace que la imagen sea más ancha */
+        height: 100%;
+        object-fit: cover;
+        object-position: left; /* Comienza desde la izquierda */
+        animation: pan-animation 8s linear infinite alternate; /* Desplazamiento */
+    }
+}
+
+@keyframes pan-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Se desplaza a la derecha */
+    }
+}
