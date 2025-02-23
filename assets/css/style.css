@@ -345,7 +345,7 @@ text-decoration:none;
 
 
 .navbar{
-    height: 13vh;
+    min-height: 13vh;
 }
 
 .main-content{
