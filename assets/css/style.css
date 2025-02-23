@@ -362,3 +362,6 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+.carousel {
+    min-height: 77vh
+}
