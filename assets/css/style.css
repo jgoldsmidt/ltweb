@@ -369,30 +369,33 @@ html, body {
     width: 100%;
     height: 77vh; /* Mantiene la altura fija */
     overflow: hidden; /* Evita que la imagen sobresalga */
+    position: relative; /* Asegura que la imagen se posicione correctamente */
 }
 
 .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
-    object-position: center; /* Centra la imagen en pantallas grandes */
+    object-fit: cover; /* La imagen siempre cubre todo */
+    object-position: center;
 }
 
-@media (max-width: 1024px) { /* Tablets y pantallas más pequeñas */
+/* 🔹 En pantallas más pequeñas (tablets y móviles), aplicamos el desplazamiento */
+@media (max-width: 1024px) { 
     .carousel-item img {
-        width: 160%; /* Se agranda más para que no aparezca borde blanco */
+        width: 180%; /* Más ancho para evitar cualquier borde vacío */
         height: 100%;
         object-fit: cover;
-        object-position: left; /* Comienza desde la izquierda */
-        animation: pan-animation 8s linear infinite alternate; /* Movimiento panorámico */
+        object-position: left;
+        animation: pan-animation 10s linear infinite alternate; /* Desplazamiento */
     }
 }
 
+/* 🔹 Animación mejorada */
 @keyframes pan-animation {
     0% {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-60%); /* Ajusta el desplazamiento para evitar espacios en blanco */
+        transform: translateX(-70%); /* Se mueve más para evitar el borde blanco */
     }
 }
