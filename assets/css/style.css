@@ -343,3 +343,14 @@ text-decoration:none;
     background-repeat: repeat-y;
 }
 
+
+.navbar{
+    min-height: 10vh;
+}
+
+.main-content{
+    min-height: 80vh;
+}
+.footer1{
+    min-height: 10vh;
+}
