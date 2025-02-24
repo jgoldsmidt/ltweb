@@ -399,3 +399,39 @@ html, body {
         transform: translateX(-71%); /* Se mueve más para evitar el borde blanco */
     }
 }
+.carousel-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* Asegura que esté sobre las imágenes */
+    text-align: center;
+}
+
+.download-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgba(0, 123, 255, 0.9); /* Azul Bootstrap */
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+    background-color: rgba(0, 123, 255, 1); /* Azul más sólido al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+    .download-btn {
+        font-size: 1rem;
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .download-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
