@@ -380,7 +380,7 @@ html, body {
 }
 
 /* 🔹 En pantallas más pequeñas (tablets y móviles), aplicamos el desplazamiento */
-@media (max-width: 750px) { 
+@media (max-width: 450px) { 
     .carousel-item img {
         width: 350%; /* Más ancho para evitar cualquier borde vacío */
         height: 100%;
