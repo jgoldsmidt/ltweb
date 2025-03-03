@@ -422,8 +422,8 @@ html, body {
     background-color: rgb(0, 0, 0); /* Azul más sólido al pasar el mouse */
     color: rgba(236,207,80,0.9);
 }
-.btn-warnign:hover {
-    color:rgba(236,207,80,0.9); ;
+.text-light:hover {
+    color:rgba(236,207,80,0.9);
 }
 
 @media (max-width: 768px) {
