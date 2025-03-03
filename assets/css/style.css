@@ -422,6 +422,9 @@ html, body {
     background-color: rgb(0, 0, 0); /* Azul más sólido al pasar el mouse */
     color: rgba(236,207,80,0.9);
 }
+.nav-item:hover {
+    color:rgba(236,207,80,0.9); ;
+}
 
 @media (max-width: 768px) {
     .download-btn {
