@@ -1,5 +1,5 @@
 ---
-layout: pagina-textual
+layout: info
 imagen-lateral: quienes-somos.png
 ---
 #### ¿Quiénes somos?
