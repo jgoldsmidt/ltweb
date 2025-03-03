@@ -1,6 +1,6 @@
 ---
 layout: pagina-textual
-imagen-lateral: supervisiones
+imagen-lateral: supervisiones.jpg
 ---
 #### Supervisiones
 Grupo integrado por analistas que quieran supervisar pacientes de su práctica privada y procuren acompañar su quehacer con un trabajo que incluye un espacio para pensar la clínica y el lazo con otros colegas.
