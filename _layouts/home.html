@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="carousel-container">
-          <button class="btn btn-primary btn-lg download-btn" onclick="descargarArchivo()">
+          <button class="btn btn-warning btn-lg download-btn" onclick="descargarArchivo()">
               Programa 2025
           </button>
       </div>
@@ -46,7 +46,7 @@
 <script>
   function descargarArchivo() {
       let link = document.createElement("a");
-      link.href = "assets/programa_2025.pdf"; // Cambiá por el path de tu archivo
+      link.href = "assets/doc/LA3RAprograma-2025.pdf"; // Cambiá por el path de tu archivo
       link.download = "programa_2025.csv";
       document.body.appendChild(link);
       link.click();
