@@ -1,5 +1,5 @@
 ---
-layout: info
+layout: info-imagen
 imagen-lateral: supervisiones.jpg
 ---
 #### Supervisiones

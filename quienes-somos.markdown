@@ -1,5 +1,5 @@
 ---
-layout: info
+layout: info-imagen
 imagen-lateral: quienes-somos.png
 ---
 #### ¿Quiénes somos?

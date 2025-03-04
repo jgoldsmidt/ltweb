@@ -1,5 +1,5 @@
 ---
-layout: info
+layout: info-full
 imagen-lateral: FTC.jpg
 ---
 #### Formación Teórico Clínica

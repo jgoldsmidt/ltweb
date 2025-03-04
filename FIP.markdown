@@ -1,5 +1,5 @@
 ---
-layout: info
+layout: info-full
 imagen-lateral: FIP.jpg
 ---
 #### Formación Integral en Psicoanálisis
