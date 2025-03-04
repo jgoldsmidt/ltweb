@@ -25,7 +25,7 @@
                         <br><b>+</b>
                     <br><b>Formación teórico-clínica</b>
                     <br> Seminarios, ateneos, cursos y talleres</li>
-                    <li class="list-group-item">Cuota mensual: ${{page.cuota-FIC}}</li>
+                    <li class="list-group-item">Cuota mensual: ${{page.cuota-FIC | number_with_delimiter: "."}}</li>
                     <li class="list-group-item"><a href="/fip">Ver más info </a></li>
                   </ul>
                   <a href="#" class="btn btn-outline-secondary">Solicitar</a>
@@ -39,9 +39,10 @@
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item"> Módulo de articulación teórico-clínica compuesto por seminarios, ateneos, cursos y talleres.
                       </li>
-                      <li class="list-group-item"> Cuota anual:${{page.cuota-FTC-anual}}
-                    </li>
-                    <li class="list-group-item"> Cuota semestral:${{page.cuota-FTC-semestre}}
+                      <li class="list-group-item"> 
+                        Cuota anual:${{page.cuota-FTC-anual | number_with_delimiter: "."}}
+                        <br>
+                        Cuota semestral:${{page.cuota-FTC-semestre |number_with_delimiter: "."}}
                     </li>
                     <li class="list-group-item"><a href="/fip">Ver más info </a></li>
                     </ul>
@@ -55,7 +56,7 @@
                   <div class="card-body">
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">Solo superviciones grupales de pacientes particulares</li>
-                    <li class="list-group-item">${{page.cuota-SUP}}
+                    <li class="list-group-item">${{page.cuota-SUP | number_with_delimiter: "."}}
                     </li>
                     <li class="list-group-item"><a href="/fip">Ver más info </a></li></ul>
                     <a href="#" class="btn btn-outline-secondary">Solicitar</a>
@@ -63,10 +64,6 @@
                 </div>
               </div>
           </div>
-</div>
-
-<div>
-  <a href="{{site.baseurl}}/staff-formacion"">VER STAFF</a>
 </div>
 {% include footer.html %}
 
